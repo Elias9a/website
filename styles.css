@@ -70,4 +70,29 @@ body {
     width: 100%;
   }
   
-  
+.hamburger {
+  display: none;
+  cursor: pointer;
+}
+
+.hamburger .line {
+  width: 30px;
+  height: 4px;
+  background-color: #333;
+  margin: 6px 0;
+}
+
+@media (max-width: 768px) {
+  .nav-ul {
+    display: none;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  .nav-ul.open {
+    display: block;
+  }
+}
+
