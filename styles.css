@@ -126,6 +126,13 @@ margin: 0.2rem 0;
   align-content: center;
   flex-direction: column;
 }
+.img-project {
+  width: 60%;
+  margin: 0 20%;
+  height: auto;
+  align-self: center;
+ 
+}
 
 @media (max-width: 768px) {
   .nav-ul {
