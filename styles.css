@@ -127,9 +127,11 @@ margin: 0.2rem 0;
   flex-direction: column;
 }
 .img-project {
-  width: 45rem;
-  height: 45rem;
-  background: url(http://goo.gl/vyAs27) no-repeat scroll 0 0;
+  width: 60%;
+  margin: 0 20%;
+  height: auto;
+  align-self: center;
+ 
 }
 
 @media (max-width: 768px) {
